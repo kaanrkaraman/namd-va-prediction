@@ -4,10 +4,13 @@ version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 license = { text = "MIT" }
-authors = [{ name = "Kaan Karaman", email = "kaanrkaraman@gmail.com" }]
+authors = [
+    { name = "Kaan Karaman", email = "kaanrkaraman@gmail.com" },
+    { name = "Dilara Cömert", email = "comerrtdilara@gmail.com" },
+]
 
 dependencies = [
-    "numpy>=2.0,<3",
+    "numpy>=2.0,<3",    
     "pandas>=2.2",
     "scipy>=1.13",
     "scikit-learn>=1.5",
